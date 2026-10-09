@@ -13,7 +13,7 @@
 
 
 
-![Rust Lint](https://img.shields.io/github/actions/workflow/status/klyderaposas/crossterm-demo-noncanonical/check.yaml?branch=home&logo=github&logoColor=white)
+![Rust Lint](https://github.com/klyderaposas/crossterm-demo-noncanonical/actions/workflows/check.yaml/badge.svg)
 
 
 
