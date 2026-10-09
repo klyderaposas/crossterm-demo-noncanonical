@@ -51,11 +51,10 @@
 ![Apache 2.0 License](https://img.shields.io/badge/License-Apache_2.0-blue?logo=apache&logoColor=white)
 
 
-[
 
 ![Unreleased code on GitHub](https://img.shields.io/badge/unreleased_code-on_github-blue?logo=github&logoColor=white)
 
-](https://github.com/klyderaposas/crossterm-demo-noncanonical)
+
 
 
 ![PRs unwelcome](https://img.shields.io/badge/PRs-unwelcome-red)
