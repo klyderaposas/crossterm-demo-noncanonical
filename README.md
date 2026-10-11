@@ -61,4 +61,4 @@
 
 ![Contributors](https://img.shields.io/github/contributors/klyderaposas/crossterm-demo-noncanonical)
 
-This program requires ANSI or VT to work.
+This program requires ANSI or VT to work..
