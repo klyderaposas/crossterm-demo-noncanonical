@@ -18,7 +18,7 @@ enable_raw_mode()?;
 let mut buffe = [0u8; 1];
 
 loop {
-stdin.read_exact(&mut buffer)?;
+stdin().read_exact(&mut buffe)?;
 if  buffe[0] == 3 {
     continue;
 }
