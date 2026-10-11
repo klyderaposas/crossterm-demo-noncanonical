@@ -10,8 +10,8 @@ use std::io::*;
 */
 
 //idk what to say vro at this line
-fn main -> Result<()> (){
-print!("\x1b[44m\x1b[H\x1b[2J\x1b[?1049h");
+fn main() -> Result<()> {
+print!("\x1b[?1049h\x1b[44m\x1b[H\x1b[2J");
 print!("Click Ctrl+A to exit or SIGKILL. This is a demo. No SIGINT");
 stdout.flush()?;
 enable_raw_mode()?;
@@ -28,5 +28,6 @@ break;
 }
 disable_raw_mode()?;
 print!("\x1b[0m\x1b[?1049l");
+stdout.flush()?;
 Ok(())
 }
