@@ -57,7 +57,7 @@
 
 
 
-![PRs unwelcome](https://img.shields.io/badge/PRs-unwelcome-red)
+![PR](https://img.shields.io/badge/PRs-welcome-red)
 
 ![Contributors](https://img.shields.io/github/contributors/klyderaposas/crossterm-demo-noncanonical)
 
