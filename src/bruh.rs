@@ -15,14 +15,14 @@ print!("\x1b[?1049h\x1b[44m\x1b[H\x1b[2J");
 print!("Click Ctrl+A to exit or SIGKILL. This is a demo. No SIGINT");
 stdout.flush()?;
 enable_raw_mode()?;
-let mut buffer = [0u8; 1];
+let mut buffe = [0u8; 1];
 
 loop {
 stdin.read_exact(&mut buffer)?;
-if  buffer[0] == 3 {
+if  buffe[0] == 3 {
     continue;
 }
-if buffer[0] == 1 {
+if buffe[0] == 1 {
 break;
 }
 }
