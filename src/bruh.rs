@@ -12,7 +12,7 @@ use std::io::*;
 //idk what to say vro at this line
 fn main() -> Result<()> {
 print!("\x1b[?1049h\x1b[44m\x1b[H\x1b[2J");
-print!("Click Ctrl+A to exit or SIGKILL. This is a demo. No SIGINT");
+print!("Click Ctrl+A to exit or SIGKILL. This is a demo. ");
 stdout.flush()?;
 enable_raw_mode()?;
 let mut buffe = [0u8; 1];
