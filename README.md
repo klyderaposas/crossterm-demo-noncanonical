@@ -60,3 +60,5 @@
 ![PRs unwelcome](https://img.shields.io/badge/PRs-unwelcome-red)
 
 ![Contributors](https://img.shields.io/github/contributors/klyderaposas/crossterm-demo-noncanonical)
+
+This program requires ANSI or VT to work.
